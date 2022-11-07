@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background: blanchedalmond;
+}
+a {
+  text-decoration: none;
+  color: purple;
+}
+.active {
+  color: orangered;
+}
+
