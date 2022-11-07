@@ -4,14 +4,14 @@ import {HttpClientModule} from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import {AppRoutingModule} from "./app-routing.module";
-import {MainLayoytComponent} from "./layout/main-layoyt/main-layoyt.component";
 import {HeaderComponent} from "./components/header/header.component";
+import {MainLayoutComponent} from "./mainLayouts/main-layout/main-layout.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainLayoytComponent,
-    HeaderComponent
+    MainLayoutComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
