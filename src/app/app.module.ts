@@ -12,6 +12,7 @@ import {MainLayoutComponent} from "./mainLayouts/main-layout/main-layout.compone
     AppComponent,
     MainLayoutComponent,
     HeaderComponent,
+
   ],
   imports: [
     BrowserModule,
